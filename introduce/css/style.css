@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/damian-mccoig-2HqpqSqy0zg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-header {
+    width: 100%;
+}
+/* .avatar {
+    
+} */
+.avatar .pic {
+    width: 300px;
+    aspect-ratio: 300 / 300;
+    margin: 30px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.avatar img {
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+.main-header .name {
+    font-size: 36px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    padding: 25px 0;
+}
+.link-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px 0px 10px 5px #bbb inset;
+    margin: 20px;
+    border-radius: 20px;
+}
+.link-list-pic {
+    width: 50px;
+    height: 50px;
+}
+.link-list img {
+    width: 100%;
+    object-fit: cover;
+}
+.link-list-pic.mail {
+    width: 80px;
+}
+.link-list-pic.ig {
+    transform: scale(2.5) translateY(12px);
+}
+.link-list a {
+    display: block;
+    width: 50%;
+    padding: 15px 0;
+    background-color: #aaf;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+    font-size: 24px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    line-height: 30px;
+}
+.link-menu :first-child a {
+    transform: translateX(-10px);
+}
+.main-footer {
+    font-size: 26px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+@media screen and (min-width: 768px) {
+    .link-list {
+        width: 40%;
+        margin: 50px auto;
+    }
+}
